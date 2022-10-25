@@ -16,3 +16,35 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.display-4 {
+    text-align: center;
+}
+
+button {
+    color: #373737;
+    background-color: #EBEBEB;
+    outline-color: #9A9A9A;
+    max-width: 300px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttongrid {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 610px;
+    height: 210px;
+    column-gap: 10px;
+    row-gap: 1em;
+    font-size: 16px;
+    margin: auto;
+}

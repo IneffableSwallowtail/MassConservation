@@ -25,8 +25,8 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
-/* Research local storage, or how to keep data safe for users?
- * -If sign in, learn if SQL database can have versions for different users
+/* First thing, check the Testing solution to see how a webpage's address is determined
+ * 
  * -If not sign in, learn how to create a plan in a downloadable form that is also reuploadable
  * Fill out MySqlDatabase
  * Research informational links to add to database
@@ -38,7 +38,10 @@ app.Run();
  * 
  * Home page that has colorful links to the main resources of the website
  * Bill search page
- * Organization API page (& get directions?)
+ * Organizations API page (& get directions?)
  * Recycling centers' API page (& get directions?)
+ * Page to create their own action plan
  * 
+ * Research local storage, or how to keep data safe for users?
+ * -If sign in, learn if SQL database can have versions for different users
  */

@@ -6,4 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\ActionPlan\" />
+    <Folder Include="Views\NewFolder1\" />
+    <Folder Include="Views\NewFolder\" />
+    <Folder Include="Views\OrgSearch\" />
+    <Folder Include="Views\RecycleSearch\" />
+    <Folder Include="Views\Resources\" />
+  </ItemGroup>
+
 </Project>
